@@ -8,8 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "npm"
-          command: build"
+          name: Build 
+          command: yarn build
 workflows:
    version: 2
    build-and-deploy:
